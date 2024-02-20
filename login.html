@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - DishDelights</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="adminstrator.html">Adminstrator</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>DishDelights</h1>
+        <img src="images/log in.jpg" alt="meal">
+    </header>
+    <main>
+        <section>
+            <h2>Login</h2>
+            <form action="recipe_options.html">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <input type="submit" value="Submit">
+            </form>
+            <p>Don't have an account? <button class="register-button" onclick="location.href='register.html'">Register</button></p>
+        </section>
+    </main>
+</body>
+</html>

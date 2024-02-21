@@ -1,0 +1,37 @@
+<!DOCTYPE
+<Html> 
+    <head> 
+        <meta charset ="utf-8">
+        <title> recipy form</title>
+        <style> 
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <ul type="none">
+                <li><a href="add.html">Add Recipes</a></li>
+                <li><a href="edit.html">Edit Recipes</a></li>
+                <li><a href="delete.html">Delet Recipes</a></li>
+            </ul>
+        </header>
+        <form class=" form">
+           <label>Food name:</label>  <input type="text" nmae = "food" required ><br><br>
+           <label>Food picture:</label>  <input type="file" id="picture2" name="picture" accept="image/*" required><br><br>
+           <label>  provide the recipy :</label><br> <textarea name="recipy" rows="30" cols="100"></textarea>
+           <p>difficulty of the recipy</p> <br>
+           <label>Easy:  <input name="dificalty" type="radio" value="easy" required ></label> 
+           <label>Intermidet : <input name="dificalty" type="radio" value="intermidet" required> </label>
+           <label>Hard: <input name="dificalty" type="radio" value="hards" required> </label>
+           <p>In which catagory does the recipy belong</p>
+           <label>Traditional Food
+            <input name="" type="checkbox" value="Traditional"required>
+           </label>
+           <label> Western Food
+            <input name="" type="checkbox" value=" Western "required >
+           </label>
+           <legend>submit: </legend><input type="submit" value="Register"><br>
+  
+        </form>
+    </body>
+</html>

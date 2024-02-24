@@ -45,12 +45,6 @@
     margin-bottom: 10px;
   }
   
-  footer {
-    background-color: black;
-    padding: 20px;
-    text-align: center;
-    color: white;
-  }
   
   @media (max-width: 768px) {
     .recipe {

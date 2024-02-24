@@ -65,4 +65,10 @@ header nav a:hover::after {
 header h1 {
     color: rgb(238, 163, 25);
     margin: 0;
-  }
+}
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}

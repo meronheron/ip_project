@@ -67,3 +67,9 @@ header h1 {
     margin: 0;
 }
 
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
